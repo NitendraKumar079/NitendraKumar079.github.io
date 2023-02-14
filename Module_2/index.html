@@ -1,0 +1,57 @@
+<!--
+    1. responsive website(desktop[width >=992px] , tablet[width=768px to 991px] , mobile[width<=767px] )
+    2.site is very simple. A page,heading and three sections(all in one row in desktop view) each sections contains some text
+    3.Desktop:  Each of 3 sections contains equal amounts of space on the screen(as you make the window wider or narrow -here we have to define width according to % of screen and use float property here)
+    4.Tablet: first 2 section should be in 1st row and 3rd section should be in 2nd row with entire width
+    5.Mobile: each sections take entire row
+    
+    6.Section title region: each section contain a section title on top right corner of box in all view(i.e. chicken,beef,sushi[hints: use relative and absolute and offsets possioning])
+    
+    7.Spacing: use margin ,padding ,box sizing = border box
+
+    8.Border and colors: some back-ground-color in section ,unique back-ground-color in each section title, border 1px solid black
+
+    9. Heading = 75% large, Section title= 25% larger than the text 
+  -->
+  <!-- NITENDRA KUMAR -->
+  <!--    ****** CODING ASSIGNMENT MODULE-2 ******    -->
+
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="css/desktop.css"> 
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="css/mobile.css">
+    
+    <title>Module_2_Solution</title>
+  </head>
+  <body>
+    <h1>Module-2-Solution</h1>
+    <div class="container">
+        <section class="box">
+        <div id="box-1">
+            <h3 class="title">Chicken</h3>
+            <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium voluptas beatae corrupti obcaecati fugiat, aperiam placeat unde odio maiores fugit! Veritatis dolores itaque sequi quidem at et. Culpa inventore magni ducimus animi error placeat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus sequi quis iste, facere ad accusamus asperiores. Dolor amet, nulla hic itaque inventore vero assumenda ab atque eaque asperiores similique maiores litia alias nobis neque!</p>
+        </div>
+        </section>
+        <section class="box">
+        <div id="box-2">
+            <h3 class="title">Beef</h3>
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum debitis aperiam iste possimus reprehenderit sed, praesentium molestiae distinctio vitae nam eius voluptatibus facilis, neque pariatur. Alias impedit voluptatem fugit dolorum inventore aut voluptate corporis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti mollitia animi numquam totam itaque dolorem modi consequuntur exercitationem! Nam commod error quisquam quidem magni ram lal ghhjkj khkh si htibus?</p>
+        </div>
+      </section>
+      <section class="box">
+        <div id="box-3">
+            <h3 class="title">Sushi</h3>
+            <p >Lorem ipsum dolor sit amet cectetur adipicing elit. Ad incidunt corrupti autem! Maiores est, dolomque harum numquam nulla fugiat. Cum accusantium iure autem ea rerum veniam Lorem ipsum dolor sit amet contetur, adicing elit. Asperiores fugiat optio dicta laboriosam a harum modi nostrum. Quisquam in odio reiciendis qui eum ad pariatur incidunt labore accusamus dolorem? Molestiae qui esse obcaecati omnis! aperiam vitae. Reiciendis nesciunt corru nkjkjk jk itaque tinctio sequi. dggfhhh nhkjlkl .</p>
+        </div>
+        </section>
+    </div>
+    
+  </body>
+  </html>

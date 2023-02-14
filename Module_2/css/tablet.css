@@ -1,0 +1,74 @@
+/* CSS for Tablet */
+body{
+    background-color: #9fa797;
+}
+.container{
+    height: 100vh;
+    padding: 10px 5px ;
+}
+
+.title{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   border: 2px solid black;
+   float: right;
+   margin: 5px;
+   margin-left: 90%;
+    padding: 2px 14px;
+    border-radius: 5px;
+    font-size: 1.25rem;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.75rem;
+    text-decoration:underline;
+    color: #8e5a5ad1;
+    text-shadow:1.7px 1.7px black;
+}
+#box-1{
+    width: 47vw;
+    margin: 0px 5px 5px 5px  ;
+    float: left;
+    border: 2px solid black;
+    background-color: #c1a6a6d1;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 4px 4px  #5f6264;
+}
+#box-2{
+    width: 47vw;
+    margin: 5px;
+    margin: 0px 0px 5px 5px  ;
+    float:left;
+    border: 2px solid black;
+    background-color: #c1a6a6d1;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 4px 4px  #5f6264;
+}
+#box-3{
+    width: 95.5vw;
+    margin: 5px;
+    margin: 5px 5px 5px 5px  ;
+    float: left; 
+    border: 2px solid black;
+    background-color: #c1a6a6d1;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 4px 4px  #5f6264;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 10px 10px 10px ;
+    text-align: justify;
+}
+
+#box-1 .title{
+    background-color:#8dc4c4;
+}
+#box-2 .title{
+    background-color:#b48bdb;
+}
+#box-3 .title{
+    background-color: rgb(157 223 174);
+}
